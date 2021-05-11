@@ -1,0 +1,94 @@
+header{
+  background-color: #00008B;
+  color: #ffffff;
+}
+
+footer{
+  margin-top: 20px;
+  background-color: #C0C0C0;
+  color: #000000;
+  height: 50px;
+  padding: 10px;
+}
+
+article{
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 900px;
+  height: 510px;
+}
+
+.header-image{
+  width: 100px;
+  height: 50px;
+}
+
+.header-text{
+  margin-left: 10px;
+}
+
+#item-name{
+  width: 200px;
+}
+
+#item-category{
+  width: 150px;
+}
+
+.header-links-div{
+  width: 900px;
+  text-align: right;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#table-heading{
+  margin-left: 40px;
+}
+
+.anchor-text{
+  color: #ffffff;
+  margin: 10px;
+}
+
+#item-status-notification{
+  color: #008000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#menulist-table{
+  padding: 5px;
+  column-width: 100px;
+  border-spacing: 20px;
+}
+
+#menulist-edit-table{
+  padding: 5px;
+  column-width: 100px;
+  border-spacing: 30px;
+}
+
+#no-items-in-cart-message{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#table-headers{
+  font-weight: bold;
+}
+
+#table-footers{
+  font-weight: bold;
+}
+
+.save-button{
+  background-color: #00008B;
+  color: #ffffff;
+  width: 90px;
+  height: 40px;
+}
+
+#title{
+  width: 550px;
+}

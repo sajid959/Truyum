@@ -1,0 +1,104 @@
+<!Doctype html>
+  <head>
+    <title> Edit Menu Item </title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css"> </link>
+    <script src="C:/Users/Sajid Ansari/Desktop/truyum-ui/js/script.js"> </script>
+  </head>
+
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <h2 class="header-text"> truYum </h2>
+          </td>
+
+          <td>
+            <img src="./images/fork_and_knife.png" class="header-image"/>
+          </td>
+
+          <td>
+            <div class="header-links-div">
+              <a href="menu-item-list-admin.html" class="anchor-text"> Menu </a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <article>
+      <h1> Edit Menu Item </h1>
+      <form id="form1" onsubmit="return validationCheck()">
+        <table id="menulist-edit-table">
+          <tr id="table-headers">
+            <td colspan="4">
+              <label for="title"> Name </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4">
+              <input type="text" id="title" name="title"/>
+            </td>
+          </tr>
+
+          <tr id="table-headers">
+            <td>
+              <label for="price"> Price (Rs.) </label>
+            </td>
+            <td>
+              <label for="inStock"> Active </label>
+            </td>
+            <td>
+              <label for="dateOfLaunch"> Date of Launch </label>
+            </td>
+            <td>
+              <label for="category"> Category </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="text" id="price" name="price">
+            </td>
+            <td>
+              <input type="radio" name="inStock" id="inStock" Value="Yes">Yes
+              &nbsp;
+              <input type="radio" name="inStock" id="inStock" Value="No">No
+              &nbsp;&nbsp;
+            </td>
+            <td>
+              <input type="date" id="dateOfLaunch" name="dateOfLaunch">
+            </td>
+            <td>
+              <select id="category">
+                <option value="Select.."> Select.. </option>
+                <option value="Starters"> Starters </option>
+                <option value="Main Course"> Main Course </option>
+                <option value="Dessert"> Dessert </option>
+                <option value="Drinks"> Drinks </option>
+              </select>
+            </td>
+          </tr>
+
+          <tr id="table-headers">
+            <td>
+              <input type="checkbox" name="freeDelivery" id="freeDelivery" checked="true">
+              <label for="freeDelivery" > Free Delivery </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="submit" id="submit" value="Save" class="save-button"/>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </article>
+
+    <footer>
+      <h3> Copyright &#169; 2021 </h3>
+    </footer>
+  </body>
+</html>
